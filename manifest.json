@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"version": "1",
+	
+	"name": "Chrome App Card UI",
+	"description": "An attempt to recreate the Google card UI in a floating Chrome app window",
+	
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	
+	"minimum_chrome_version": "32"
+}
